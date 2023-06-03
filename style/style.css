@@ -1,0 +1,247 @@
+body {
+    background-color: 04AA6D;
+    background-image: url(../assets/main-qimg-bbff433402c473643f1cee67a9f20843-lq.jpeg);
+}
+
+h1 {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: red;
+    text-shadow: 2px 0 #111, -2px 0 #111, 0 2px #111, 0 -2px #111,
+1px 1px #111, -1px -1px #111, 1px -1px #111, -1px 1px #111;
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 50%;
+
+
+}
+
+li {
+    float: right;
+    background-color: rgb(172, 134, 12);
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(102, 3, 3);
+}
+.active {
+    background-color: #a75407;
+  }
+  
+.pépé {
+    color: blue;
+    display: flex;
+    font-size: 32px;
+    margin-right: 0px;
+    /* background-color: red; */
+    
+}
+
+.mute {
+    background-color: none;
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: smaller;
+
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.mute p {
+    margin: 0px;
+}
+
+.pépé p {
+    background-color: yellowgreen;
+    justify-content: right;
+    text-align: right;
+    /* width: 450px; */
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+input {
+    box-shadow: 5px 5px rgb(255, 5, 5);
+
+    border-radius: 10%;
+    color: grey;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+
+
+}
+
+#film:focus {
+    font-size: 40px;
+    width: 400px;
+    height: 50px;
+    color: red
+}
+
+#film:hover {
+    margin-right: 500px;
+}
+
+table {
+    background-color: white;
+}
+
+#ok {
+    height: 200px;
+    background-color: darkgreen;
+    color: white;
+}
+
+#ok:focus {
+    width: 1200px;
+    box-shadow: 5px 5px rgb(255, 251, 5);
+
+}
+
+
+h2 {
+    font-size: 30px;
+    height: 2em;
+    margin: 0 30%;
+    text-align: center;
+    color: black;
+    margin-bottom: 0.2em;
+    font-style: italic;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+tr {
+    border-bottom: solid 10px grey;
+}
+
+table {
+    margin: 0 30%;
+    background-color: black;
+    text-align: center;
+    color: darkgrey;
+    text-shadow: #FC0 1px 0 5px;
+    border: solid 5px rgb(71, 71, 71);
+    box-shadow: 0 0 6em 2em gold;
+    position: absolute;
+
+}
+
+.selectito {
+    display: flex;
+    justify-content: right;
+    width: auto;
+
+}
+
+/* 
+.selectito:hover{
+    margin-bottom: 16em;
+} */
+
+/* select:hover{
+    margin-bottom: 19em;
+
+} */
+
+th {
+    color: red;
+    text-shadow: none;
+    width: 100%;
+    min-width: 100px;
+    border-bottom: solid 2px red;
+    border-right: solid 3px red;
+    font-weight: bold;
+
+}
+
+.titre {
+    min-width: 250px;
+}
+
+td {
+    border-bottom: solid 2px green;
+    border-right: solid 2px green;
+    box-shadow: 2px 2px 5px red;
+}
+
+.sticky {
+    position: fixed;
+    margin-right: 69%
+}
+
+.FRANCE {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50%;
+}
+
+#munition{
+    color:rgb(206, 119, 5);
+    display: flex;
+float : right;
+text-shadow: 2px 0 #111, -2px 0 #111, 0 2px #111, 0 -2px #111,
+1px 1px #111, -1px -1px #111, 1px -1px #111, -1px 1px #111;
+font-size: 22px;
+}
+
+.active{
+    cursor: crosshair;
+}
+
+progress{
+    accent-color: red;
+    width: 400px;
+    height: 50px;
+
+}
+
+#PV{
+    margin-left: 38em;
+    margin-bottom: 3em;
+    text-shadow: 2px 0 #ff0000, -2px 0 #ff0000, 0 2px #ff0000, 0 -2px #ff0000,
+    1px 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #ff0000;
+}
+
+#PV h3{
+    margin-bottom: 0px;
+}
+
+#PV p{
+    color: white;
+    text-shadow: none;
+}
+#PV h4{
+    color: white;
+    text-shadow: none;
+}

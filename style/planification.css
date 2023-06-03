@@ -1,0 +1,144 @@
+body {
+    background-image: url("../assets/3D-glass-technology-film-reel-reels-light-834130-wallhere.com.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    color: white;
+    overflow-x: hidden;
+}
+
+.gestion{
+    background-image: url("../assets/felix-mooneeram-evlkOfkQ5rE-unsplash.jpg");
+
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0 2em;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+
+li {
+    float: left;
+    background-color: #111;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(34, 116, 122);
+}
+
+.active {
+    background-color: #0491aa;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 18em;
+    margin-top: 4em;
+    border-radius: 2px;
+    padding: 1.4rem 2rem 1.6rem;
+    padding-bottom: 0;
+
+}
+
+.search input {
+    flex-grow: 1;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    vertical-align: middle;
+border-radius: 2%;
+}
+
+th {
+    color: #0491aa;
+    padding-bottom: 0.3em;
+}
+
+table {
+    border: solid 3px black;
+    border-radius: 20px;
+    text-shadow: 2px 0 #111, -2px 0 #111, 0 2px #111, 0 -2px #111,
+        1px 1px #111, -1px -1px #111, 1px -1px #111, -1px 1px #111;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    overflow: hidden;
+    margin-left: 20em;
+    padding: 0.2em 1em;
+}
+
+.tab {
+    height: 700px;
+    overflow-y: auto;
+    width: 200em;
+    overflow-x: hidden;
+}
+.prenom {
+    padding: 0 1em;}
+H4 {
+    margin-left: 20em;
+}
+
+table a{
+    color: white;
+    text-decoration:none;
+
+}
+
+.FOU{
+    margin-left: 33em;
+    font-size: 20px;
+}
+
+.FOU tr td{
+    padding-top: 1em;
+}
+
+.fou .search{
+    margin-left: 42em;
+}
+.fou{
+    margin-bottom: 1em;
+}
+
+.fou h3{
+    color: #04AA6D;
+    text-shadow: 2px 0 #111, -2px 0 #111, 0 2px #111, 0 -2px #111,
+        1px 1px #111, -1px -1px #111, 1px -1px #111, -1px 1px #111;
+    text-align: center;
+justify-content: center;}
+#disparait{
+
+    display: none;
+}
+
+td{
+    padding-bottom: 1em;
+}
